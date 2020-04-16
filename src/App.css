@@ -6,15 +6,19 @@
   margin-bottom: 0;
   }
   #homeBanner .carousel-indicators li {
-  background-color: #4CAE46;
+  background-color: #E30710;
   }
   .list-box {
   border-radius: 3px;
   background-color: #4CAE46;
+  background-image: url(../src/images/bg-virus.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 100px;
   }
   .list-box img {
   margin-right: 10px;
-  width: 70px;
+  width: 60px;
   }
   .list-box span {
   display: block;

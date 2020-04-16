@@ -97,7 +97,7 @@ class App extends Component {
 
             <div className='row'>
               <div className='col-md-12'>
-                <small className='d-block mt-4 mb-1'>Data diperbarui setiap 15 menit</small>
+                <small className='d-block mt-5 mb-2'>Data diperbarui setiap 15 menit</small>
               </div>
             </div>
 
@@ -106,7 +106,7 @@ class App extends Component {
                 <div className="col-md-12" key={member.country}>
                   
                   <div className='mb-2 p-3 bg-info list-box text-white'>
-                    Total Kasus :{member.cases.total}
+                    Total Kasus :{member.cases.total} |
                     Kasus Baru :{member.cases.new}
                   </div>
 
