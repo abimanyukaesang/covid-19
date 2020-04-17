@@ -1,28 +1,30 @@
 {
   "files": {
-    "main.css": "/covid-19/static/css/main.a669c11a.chunk.css",
-    "main.js": "/covid-19/static/js/main.a9e48a70.chunk.js",
-    "main.js.map": "/covid-19/static/js/main.a9e48a70.chunk.js.map",
+    "main.css": "/covid-19/static/css/main.791a1e1c.chunk.css",
+    "main.js": "/covid-19/static/js/main.adbe2725.chunk.js",
+    "main.js.map": "/covid-19/static/js/main.adbe2725.chunk.js.map",
     "runtime-main.js": "/covid-19/static/js/runtime-main.db8c32d2.js",
     "runtime-main.js.map": "/covid-19/static/js/runtime-main.db8c32d2.js.map",
-    "static/js/2.35cb893c.chunk.js": "/covid-19/static/js/2.35cb893c.chunk.js",
-    "static/js/2.35cb893c.chunk.js.map": "/covid-19/static/js/2.35cb893c.chunk.js.map",
+    "static/js/2.a70e158e.chunk.js": "/covid-19/static/js/2.a70e158e.chunk.js",
+    "static/js/2.a70e158e.chunk.js.map": "/covid-19/static/js/2.a70e158e.chunk.js.map",
     "index.html": "/covid-19/index.html",
-    "precache-manifest.000507e5bb96d44a37e00f10d0e36780.js": "/covid-19/precache-manifest.000507e5bb96d44a37e00f10d0e36780.js",
+    "precache-manifest.60200b6e25d46b5d176056ffb5e3b86c.js": "/covid-19/precache-manifest.60200b6e25d46b5d176056ffb5e3b86c.js",
     "service-worker.js": "/covid-19/service-worker.js",
-    "static/css/main.a669c11a.chunk.css.map": "/covid-19/static/css/main.a669c11a.chunk.css.map",
-    "static/js/2.35cb893c.chunk.js.LICENSE.txt": "/covid-19/static/js/2.35cb893c.chunk.js.LICENSE.txt",
+    "static/css/main.791a1e1c.chunk.css.map": "/covid-19/static/css/main.791a1e1c.chunk.css.map",
+    "static/js/2.a70e158e.chunk.js.LICENSE.txt": "/covid-19/static/js/2.a70e158e.chunk.js.LICENSE.txt",
+    "static/media/banner-covid1.jpg": "/covid-19/static/media/banner-covid1.5848954d.jpg",
+    "static/media/banner-covid2.jpg": "/covid-19/static/media/banner-covid2.f8ea7218.jpg",
     "static/media/App.css": "/covid-19/static/media/bg-virus.86e2e0c8.svg",
     "static/media/crying.svg": "/covid-19/static/media/crying.9a9725fe.svg",
-    "static/media/logo-covid.svg": "/covid-19/static/media/logo-covid.218a316b.svg",
+    "static/media/logo-covid-white.svg": "/covid-19/static/media/logo-covid-white.24c5f6f7.svg",
     "static/media/sad.svg": "/covid-19/static/media/sad.8f3e4845.svg",
     "static/media/smile.svg": "/covid-19/static/media/smile.c466092e.svg",
     "static/media/index.css": "/covid-19/static/media/virus.8a562f56.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.db8c32d2.js",
-    "static/js/2.35cb893c.chunk.js",
-    "static/css/main.a669c11a.chunk.css",
-    "static/js/main.a9e48a70.chunk.js"
+    "static/js/2.a70e158e.chunk.js",
+    "static/css/main.791a1e1c.chunk.css",
+    "static/js/main.adbe2725.chunk.js"
   ]
 }
