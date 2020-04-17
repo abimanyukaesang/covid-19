@@ -6,10 +6,10 @@
   margin-bottom: 0;
   }
   #homeBanner .carousel-indicators li {
-  background-color: #E30710;
+  background-color: #bd61f2;
   }
   .list-box {
-  border-radius: 3px;
+  border-radius: 5px;
   background-color: #4CAE46;
   background-image: url(../src/images/bg-virus.svg);
   background-repeat: no-repeat;
@@ -24,4 +24,32 @@
   display: block;
   font-size: 20px;
   }
+
+  .list-box h4{
+    font-weight: bold;
+  }
+
+  .bg-header{
+    background-color: #6c3ccc;
+    box-shadow:         0px 3px 5px 0px rgba(50, 50, 50, 0.3);
+  }
+
+  .bg-purple{
+    margin-bottom: 15px;
+    background-color: #bd61f2;
     
+    color: #fff;
+    box-shadow:         0px 3px 5px 0px rgba(50, 50, 50, 0.3);
+  }
+  
+  .footer{
+    background-color: #bd61f2;
+    height: 6px;
+  }
+
+  .footer span{
+    display: block;
+    background-color: #6c3ccc;
+    width: 80px;
+    height: 6px;
+  }

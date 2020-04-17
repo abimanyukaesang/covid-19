@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
 import axios from 'axios';
-import logo from '../src/images/logo-covid.svg';
+import logo from '../src/images/logo-covid-white.svg';
 import sad from '../src/images/sad.svg';
 import smile from '../src/images/smile.svg';
 import crying from '../src/images/crying.svg';
 import {API} from '../src/config/api';
 
+import slide1 from '../src/images/banner-covid1.jpg';
+import slide2 from '../src/images/banner-covid2.jpg';
 
 class App extends Component {
 
@@ -63,7 +65,7 @@ class App extends Component {
     return (
 
       <>
-          <nav className="navbar navbar-light bg-light mb-3">
+          <nav className="navbar navbar-light bg-header mb-3">
             <a className="navbar-brand"><img src={logo} alt='covid 19' /></a>
           </nav>
 
@@ -79,14 +81,14 @@ class App extends Component {
                     <div className="carousel-item active">
                       <img
                           className='rounded' 
-                          src="https://kotabogor.go.id/uploads/images/2020/covid19/Spanduk_Covid.jpg"
+                          src={slide1}
                           alt="covid-19"
                       />
                     </div>
                     <div className="carousel-item">
                       <img 
                           className='rounded'
-                          src="https://kotabogor.go.id/uploads/images/2020/covid19/Spanduk_Corona_Germas.jpg"
+                          src={slide2}
                           alt="covid-19"
                       />
                     </div>
@@ -105,12 +107,12 @@ class App extends Component {
               {this.state.members.map((member, index) => (
                 <div className="col-md-12" key={member.country}>
                   
-                  <div className='mb-2 p-3 bg-info list-box text-white'>
-                    Total Kasus :{member.cases.total} |
-                    Kasus Baru :{member.cases.new}
+                  <div className='p-3 bg-purple list-box'>
+                    Total Kasus : {member.cases.total} |
+                    Kasus Baru : {member.cases.new}
                   </div>
 
-                  <div className='mb-2 p-3 bg-warning list-box'>
+                  <div className='p-3 bg-purple list-box'>
                     <div className="media">
                         <img src={sad} alt='Dalam Perawatan'/>
                         <div className="media-body">
@@ -120,7 +122,7 @@ class App extends Component {
                     </div>
                   </div>
 
-                  <div className='mb-2 p-3 bg-success list-box text-white'>
+                  <div className='p-3 bg-purple list-box'>
                     <div className="media">
                       <img src={smile} alt='Dalam Perawatan'/>
                         <div className="media-body">
@@ -130,7 +132,7 @@ class App extends Component {
                     </div>
                   </div>
 
-                  <div className='mb-2 p-3 bg-danger list-box text-white'>
+                  <div className='p-3 bg-purple list-box'>
                     <div className="media">
                       <img src={crying} alt='Dalam Perawatan'/>
                         <div className="media-body">
@@ -144,7 +146,10 @@ class App extends Component {
               ))}
             </div>
           </div>
-
+          
+          <div className='footer'>
+              <span></span>
+          </div>
       </>
     )
   }
