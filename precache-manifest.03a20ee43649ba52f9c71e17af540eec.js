@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "945f4456c072c720f53f5f7c2e16fb13",
+    "revision": "0b365a700c029f0a77d653a111f35243",
     "url": "/covid-19/index.html"
   },
   {
-    "revision": "8cb3b7e626b53074dd5d",
-    "url": "/covid-19/static/css/main.791a1e1c.chunk.css"
+    "revision": "7d0c8208a1ef70bc86c7",
+    "url": "/covid-19/static/css/main.a65313d3.chunk.css"
   },
   {
     "revision": "a0503513e6f8100de0ae",
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/covid-19/static/js/2.a70e158e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8cb3b7e626b53074dd5d",
-    "url": "/covid-19/static/js/main.adbe2725.chunk.js"
+    "revision": "7d0c8208a1ef70bc86c7",
+    "url": "/covid-19/static/js/main.05255f62.chunk.js"
   },
   {
     "revision": "5947671d1c53a9002efe",
     "url": "/covid-19/static/js/runtime-main.db8c32d2.js"
+  },
+  {
+    "revision": "958795045d3b6347f05c02eb824bb961",
+    "url": "/covid-19/static/media/angel.95879504.svg"
   },
   {
     "revision": "5848954d18726887c1783c086cbabb3e",
@@ -34,10 +38,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "86e2e0c8b4566160411b75fecf9ff1db",
     "url": "/covid-19/static/media/bg-virus.86e2e0c8.svg"
-  },
-  {
-    "revision": "9a9725fe9b2e496a08e56bf93c057cd2",
-    "url": "/covid-19/static/media/crying.9a9725fe.svg"
   },
   {
     "revision": "24c5f6f74253507835f72e918018d9aa",

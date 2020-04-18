@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/covid-19/static/css/main.791a1e1c.chunk.css",
-    "main.js": "/covid-19/static/js/main.adbe2725.chunk.js",
-    "main.js.map": "/covid-19/static/js/main.adbe2725.chunk.js.map",
+    "main.css": "/covid-19/static/css/main.a65313d3.chunk.css",
+    "main.js": "/covid-19/static/js/main.05255f62.chunk.js",
+    "main.js.map": "/covid-19/static/js/main.05255f62.chunk.js.map",
     "runtime-main.js": "/covid-19/static/js/runtime-main.db8c32d2.js",
     "runtime-main.js.map": "/covid-19/static/js/runtime-main.db8c32d2.js.map",
     "static/js/2.a70e158e.chunk.js": "/covid-19/static/js/2.a70e158e.chunk.js",
     "static/js/2.a70e158e.chunk.js.map": "/covid-19/static/js/2.a70e158e.chunk.js.map",
     "index.html": "/covid-19/index.html",
-    "precache-manifest.60200b6e25d46b5d176056ffb5e3b86c.js": "/covid-19/precache-manifest.60200b6e25d46b5d176056ffb5e3b86c.js",
+    "precache-manifest.03a20ee43649ba52f9c71e17af540eec.js": "/covid-19/precache-manifest.03a20ee43649ba52f9c71e17af540eec.js",
     "service-worker.js": "/covid-19/service-worker.js",
-    "static/css/main.791a1e1c.chunk.css.map": "/covid-19/static/css/main.791a1e1c.chunk.css.map",
+    "static/css/main.a65313d3.chunk.css.map": "/covid-19/static/css/main.a65313d3.chunk.css.map",
     "static/js/2.a70e158e.chunk.js.LICENSE.txt": "/covid-19/static/js/2.a70e158e.chunk.js.LICENSE.txt",
+    "static/media/angel.svg": "/covid-19/static/media/angel.95879504.svg",
     "static/media/banner-covid1.jpg": "/covid-19/static/media/banner-covid1.5848954d.jpg",
     "static/media/banner-covid2.jpg": "/covid-19/static/media/banner-covid2.f8ea7218.jpg",
     "static/media/App.css": "/covid-19/static/media/bg-virus.86e2e0c8.svg",
-    "static/media/crying.svg": "/covid-19/static/media/crying.9a9725fe.svg",
     "static/media/logo-covid-white.svg": "/covid-19/static/media/logo-covid-white.24c5f6f7.svg",
     "static/media/sad.svg": "/covid-19/static/media/sad.8f3e4845.svg",
     "static/media/smile.svg": "/covid-19/static/media/smile.c466092e.svg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.db8c32d2.js",
     "static/js/2.a70e158e.chunk.js",
-    "static/css/main.791a1e1c.chunk.css",
-    "static/js/main.adbe2725.chunk.js"
+    "static/css/main.a65313d3.chunk.css",
+    "static/js/main.05255f62.chunk.js"
   ]
 }
