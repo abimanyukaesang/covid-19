@@ -4,7 +4,7 @@ import axios from 'axios';
 import logo from '../src/images/logo-covid-white.svg';
 import sad from '../src/images/sad.svg';
 import smile from '../src/images/smile.svg';
-import crying from '../src/images/crying.svg';
+import crying from '../src/images/angel.svg';
 import {API} from '../src/config/api';
 
 import slide1 from '../src/images/banner-covid1.jpg';
@@ -107,37 +107,37 @@ class App extends Component {
               {this.state.members.map((member, index) => (
                 <div className="col-md-12" key={member.country}>
                   
-                  <div className='p-3 bg-purple list-box'>
+                  <div className='bg-purple'>
                     Total Kasus : {member.cases.total} |
                     Kasus Baru : {member.cases.new}
                   </div>
 
-                  <div className='p-3 bg-purple list-box'>
+                  <div className='bg-purple'>
                     <div className="media">
                         <img src={sad} alt='Dalam Perawatan'/>
                         <div className="media-body">
                             Dalam Perawatan :
-                            <h4>{member.cases.active}</h4>
+                            <h4 className='text-warning'>{member.cases.active}</h4>
                         </div>
                     </div>
                   </div>
 
-                  <div className='p-3 bg-purple list-box'>
+                  <div className='bg-purple'>
                     <div className="media">
                       <img src={smile} alt='Dalam Perawatan'/>
                         <div className="media-body">
                             Sembuh :
-                            <h4>{member.cases.recovered}</h4>
+                            <h4 className='text-info'>{member.cases.recovered}</h4>
                         </div>
                     </div>
                   </div>
 
-                  <div className='p-3 bg-purple list-box'>
+                  <div className='bg-purple'>
                     <div className="media">
                       <img src={crying} alt='Dalam Perawatan'/>
                         <div className="media-body">
                             Total Meninggal :
-                            <h4>{member.deaths.total}</h4>
+                            <h4 className='text-danger'>{member.deaths.total}</h4>
                         </div>
                     </div>
                   </div>
@@ -145,6 +145,19 @@ class App extends Component {
                 </div>
               ))}
             </div>
+
+            <div className='row mb-4'>
+              <div className='col-md-12'>
+                <label for="">Seacrh City</label>
+              </div>
+              <div className='col-8' style={{paddingRight:0}}>
+                <input class="form-control" placeholder='Type keyword or city name'/>
+              </div>
+              <div className='col-4'>
+                <button type="submit" class="btn btn-info btn-block">Search</button>
+              </div>
+            </div>
+
           </div>
           
           <div className='footer'>

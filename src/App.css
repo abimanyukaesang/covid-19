@@ -8,45 +8,34 @@
   #homeBanner .carousel-indicators li {
   background-color: #bd61f2;
   }
-  .list-box {
-  border-radius: 5px;
-  background-color: #4CAE46;
-  background-image: url(../src/images/bg-virus.svg);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 100px;
-  }
-  .list-box img {
-  margin-right: 10px;
-  width: 60px;
-  }
-  .list-box span {
-  display: block;
-  font-size: 20px;
-  }
-
-  .list-box h4{
-    font-weight: bold;
-  }
-
   .bg-header{
     background-color: #6c3ccc;
     box-shadow:         0px 3px 5px 0px rgba(50, 50, 50, 0.3);
   }
-
   .bg-purple{
     margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
     background-color: #bd61f2;
-    
+    background-image: url(../src/images/bg-virus.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100px;
     color: #fff;
     box-shadow:         0px 3px 5px 0px rgba(50, 50, 50, 0.3);
   }
-  
+  .bg-purple img{
+    margin-right: 10px;
+    width: 50px;
+  }
+  .bg-purple h4{
+    margin-bottom: 0;
+    font-weight: bold;
+  }
   .footer{
     background-color: #bd61f2;
     height: 6px;
   }
-
   .footer span{
     display: block;
     background-color: #6c3ccc;
