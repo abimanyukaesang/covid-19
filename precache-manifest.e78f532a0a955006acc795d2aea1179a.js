@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e925944730a1b2acd3c48ec351dde7de",
+    "revision": "335a0127871846e126d57180e9b525d4",
     "url": "/covid-19/index.html"
   },
   {
-    "revision": "c3e222f847f06dc6bcd1",
-    "url": "/covid-19/static/css/main.a65313d3.chunk.css"
+    "revision": "ee1126615b0261269fd1",
+    "url": "/covid-19/static/css/main.cef87c55.chunk.css"
   },
   {
     "revision": "acd4448dfea674859f50",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/covid-19/static/js/2.4d9363ba.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c3e222f847f06dc6bcd1",
+    "revision": "ee1126615b0261269fd1",
     "url": "/covid-19/static/js/main.a7d2e8c9.chunk.js"
   },
   {
@@ -36,10 +36,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/covid-19/static/media/banner-covid2.f8ea7218.jpg"
   },
   {
-    "revision": "86e2e0c8b4566160411b75fecf9ff1db",
-    "url": "/covid-19/static/media/bg-virus.86e2e0c8.svg"
-  },
-  {
     "revision": "24c5f6f74253507835f72e918018d9aa",
     "url": "/covid-19/static/media/logo-covid-white.24c5f6f7.svg"
   },
@@ -54,5 +50,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8a562f5638d7e7e19745b8c17c80f796",
     "url": "/covid-19/static/media/virus.8a562f56.svg"
+  },
+  {
+    "revision": "336c8fc42ffc4898b5d2e631771c6a20",
+    "url": "/covid-19/static/media/virus1.336c8fc4.png"
   }
 ]);
