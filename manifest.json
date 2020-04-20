@@ -18,7 +18,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/?utm_source=homescreen",
+  "start_url": "https://abimanyukaesang.github.io/covid-19",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
